@@ -1,6 +1,6 @@
-package com.project.UrlShortner.repository;
+package com.project.UrlShortener.repository;
 
-import com.project.UrlShortner.model.Url;
+import com.project.UrlShortener.model.Url;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

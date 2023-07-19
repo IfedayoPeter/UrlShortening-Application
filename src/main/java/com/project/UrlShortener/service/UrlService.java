@@ -1,7 +1,7 @@
-package com.project.UrlShortner.service;
+package com.project.UrlShortener.service;
 
-import com.project.UrlShortner.model.Url;
-import com.project.UrlShortner.model.UrlDto;
+import com.project.UrlShortener.model.Url;
+import com.project.UrlShortener.model.UrlDto;
 import org.springframework.stereotype.Service;
 
 @Service

@@ -1,4 +1,4 @@
-package com.project.UrlShortner.model;
+package com.project.UrlShortener.model;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;

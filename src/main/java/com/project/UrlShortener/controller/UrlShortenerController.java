@@ -1,10 +1,10 @@
-package com.project.UrlShortner.controller;
+package com.project.UrlShortener.controller;
 
-import com.project.UrlShortner.model.Url;
-import com.project.UrlShortner.model.UrlDto;
-import com.project.UrlShortner.model.UrlErrorResponseDto;
-import com.project.UrlShortner.model.UrlResponseDto;
-import com.project.UrlShortner.service.UrlService;
+import com.project.UrlShortener.model.Url;
+import com.project.UrlShortener.model.UrlDto;
+import com.project.UrlShortener.model.UrlErrorResponseDto;
+import com.project.UrlShortener.model.UrlResponseDto;
+import com.project.UrlShortener.service.UrlService;
 import javax.servlet.http.HttpServletResponse;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -17,8 +17,8 @@ import java.io.IOException;
 import java.time.LocalDateTime;
 
 @RestController
-@RequestMapping("/shorty")
-public class UrlShortnerController
+@RequestMapping("/shorten")
+public class UrlShortenerController
 {
     @Autowired
     private UrlService urlService;

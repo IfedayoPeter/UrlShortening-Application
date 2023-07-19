@@ -1,4 +1,4 @@
-package com.project.UrlShortner.model;
+package com.project.UrlShortener.model;
 
 import lombok.Data;
 

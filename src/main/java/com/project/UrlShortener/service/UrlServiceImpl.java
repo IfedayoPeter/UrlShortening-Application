@@ -1,9 +1,9 @@
-package com.project.UrlShortner.service;
+package com.project.UrlShortener.service;
 
 import com.google.common.hash.Hashing;
-import com.project.UrlShortner.model.Url;
-import com.project.UrlShortner.model.UrlDto;
-import com.project.UrlShortner.repository.UrlRepository;
+import com.project.UrlShortener.model.Url;
+import com.project.UrlShortener.model.UrlDto;
+import com.project.UrlShortener.repository.UrlRepository;
 import org.apache.commons.lang3.StringUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
