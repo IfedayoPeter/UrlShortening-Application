@@ -5,7 +5,7 @@ import com.project.UrlShortner.model.UrlDto;
 import com.project.UrlShortner.model.UrlErrorResponseDto;
 import com.project.UrlShortner.model.UrlResponseDto;
 import com.project.UrlShortner.service.UrlService;
-import jakarta.servlet.http.HttpServletResponse;
+import javax.servlet.http.HttpServletResponse;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
@@ -17,6 +17,7 @@ import java.io.IOException;
 import java.time.LocalDateTime;
 
 @RestController
+@RequestMapping("/shorty")
 public class UrlShortnerController
 {
     @Autowired
